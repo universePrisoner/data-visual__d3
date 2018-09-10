@@ -1,11 +1,63 @@
+body {
+	background-color: #f2fcff;
+}
+
 .bar-chart {
 	background-color: #c7d9d9;
 }
 
 .bar {
-	fill: #4682b4;
+	fill: #75caff;
 }
 
 .bar:hover {
-	fill: #554dff;
+	fill: #ffea75;
+}
+
+.tooltip {
+	position: absolute;
+	text-align: left;
+	padding: 14px;
+	line-height: 28px;
+	display: inline-block;
+	font: 12px sans-serif;
+	background: #ff759e;
+	border: none;
+	border-radius: 8px;
+	pointer-events: none;
+	color: #ffffff;
+}
+
+svg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: #ffffff;
+	padding: 50px;
+	border-radius: 8px;
+	box-shadow: 0 0 15px #fff2f7;
+}
+path {
+	stroke: #d675ff;
+}
+
+line {
+	stroke: #d675ff;
+}
+
+.tick text {
+	padding: 5px;
+}
+
+.title {
+	font-size: 32px;
+}
+
+text {
+	font-size: 14px;
+}
+
+.axis-title {
+	font-size: 22px;
 }
