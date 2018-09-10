@@ -6,9 +6,9 @@ body {
 	background-color: #c7d9d9;
 }
 
-.bar {
+/* .bar {
 	fill: #75caff;
-}
+} */
 
 .bar:hover {
 	fill: #ffea75;
