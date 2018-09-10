@@ -1,0 +1,11 @@
+.bar-chart {
+	background-color: #c7d9d9;
+}
+
+.bar {
+	fill: #4682b4;
+}
+
+.bar:hover {
+	fill: #554dff;
+}
